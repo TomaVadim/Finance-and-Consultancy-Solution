@@ -59,16 +59,15 @@ position: relative;
    display: flex;
    min-height: 104px;
    align-items: center;
-   padding: 5px 0px;
+   padding: 5px 0px 5px 15px;
    @media (max-width: 479px) {
       min-height: 70px;
  }
- //
    @media (max-width: 767px) {
       justify-content: space-between;
  }
-//
 }
+
 .header__logo {
    font-weight: 700;
    font-size: 24px;
@@ -146,7 +145,7 @@ position: relative;
       z-index: 5;
    }
  }
-//
+ 
 //_active////////////
 ._active {
    padding: 40px 20px 20px 20px;
